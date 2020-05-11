@@ -1,0 +1,20 @@
+{
+    "fgdthtnffhjngg_cvbgmn": {
+        "customer": {
+            "addres": {
+                "street": "even gvirol 8",
+                "zipCode": "233575",
+                "country": "Israel"
+            },
+            "email": "hk0504128896@gmail.com",
+            "deliveryMethod": "festest",
+            "ingredients": {
+                "bacon": 1,
+                "cheese": 2,
+                "salad": 2,
+                "meat": 1
+            },
+            "price": 7.3
+        }
+    }
+}
