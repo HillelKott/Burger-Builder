@@ -112,14 +112,14 @@ class ContactDate extends Component {
             userId: this.props.userId
         };
 
-        axios.post('/orders.json', order)
-            .then(response => {
-                this.setState({ loading: false });
-                this.props.history.push('/');
-            })
-            .catch(error => {
-                this.setState({ loading: false });
-            })
+        // axios.post('/orders.json', order)
+        //     .then(response => {
+        //         this.setState({ loading: false });
+        //         this.props.history.push('/');
+        //     })
+        //     .catch(error => {
+        //         this.setState({ loading: false });
+        //     })
 
         this.props.onOrderBurger(order, this.props.token)
 
@@ -134,7 +134,7 @@ class ContactDate extends Component {
                 touched: true
             });
 
-        const updatedOrderForm = checkValidity(this.state.orderForm, {
+        const updatedOrderForm = updatedObject(this.state.orderForm, {
             [inputIden]: updatedFormElement
         });
 
